@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: "Museo Sans Cyrl", sans-serif;
+  color: #333;
+}
+
+a {
+  color: #6933dc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.button {
+  border-radius: 6px;
+  padding: 14px 35px;
+  background: #6933dc;
+  font-size: 17px;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  transition: .4s;
+  text-decoration: none;
+
+  &a {
+    display: inline-block;
+  }
+
+  &:hover {
+    background: #4e12c8;
+  }
+
+  :disabled {
+    background-color: #e2dfe7;
+    cursor: not-allowed;
+  }
+
+  &.button-transparent {
+    background: transparent;
+    color: #6933dc;
+    border: 1px solid #6933dc;
+
+    &:hover {
+      background: #6933dc;
+      color: white;
+    }
+
+    &:disabled {
+      background: transparent;
+      color: #e2dfe7;
+      border: 1px solid #e2dfe7;
+    }
+  }
+}
+
+.common-title {
+  font-family: "Museo Sans Cyrl Bold", sans-serif;
+  line-height: 58px;
+  font-size: 48px;
+  color: #333;
+
+  span {
+    color: #6933dc;
+  }
+}
+
+.big__title {
+  font-family: "Museo Sans Cyrl Bold", sans-serif;
+  font-size: 54px;
+  line-height: 65px;
+
+  span {
+    color: #6933dc;
+  }
+}
